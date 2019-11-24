@@ -1,0 +1,119 @@
+@charset "utf-8";
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.whole {
+    width: 100%;
+    height: 2610px;
+
+}
+
+.hcjzb{
+    background: url("../img/venue-blue.png") no-repeat 5px 0;
+}
+
+
+.body {
+    width: 100%;
+    height: 1800px;
+    background-color: white;
+    text-align: center;
+}
+
+.space {
+    width: 100%;
+    height: 92px;
+    display: block;
+}
+
+.textarea {
+    width: 1300px;
+    height: 1657px;
+    /*background-color: pink;*/
+    margin: auto;
+    text-align: left;
+}
+
+.p1 {
+    width: 1300px;
+    height: 350px;
+}
+
+.i1 {
+    height: 300px;
+    width: 500px;
+    text-align: left;
+    display: inline-block;
+    overflow: hidden;
+    /*boder-radius:30px;*/
+}
+.p1 .i1 img{
+    border-radius:30px;
+    width: 450px;
+    height: 300px;
+}
+.w1 {
+    width: 700px;
+    font-size: 18px;
+    height: 300px;
+    display: inline-block;
+    color: rgb(125, 125, 125);
+    /*background-color: orange;*/
+    overflow: hidden;
+}
+.w1 p{
+    margin-top: 30px;
+}
+
+.pw {
+    width: 700px;
+    height: 230px;
+}
+
+img[class=i1] {
+    height: 300px;
+    width: 458px;
+    vertical-align: top;
+}
+
+.more a{
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    background-color: #3581F3;
+    border-radius: 25px;
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    text-align: center;
+}
+
+.fgx {
+    background-color: rgb(230, 230, 230);
+    height: 3px;
+    width: 1300px;
+    border: none;
+}
+
+.dfgx {
+    width: 100%;
+    height: 60px;
+}
+
+h2 {
+    display: inline;
+    font-size: 30px;
+    font-weight: normal;
+}
+

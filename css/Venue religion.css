@@ -1,0 +1,72 @@
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+      margin: 0;
+      padding: 0;
+      border: none;
+  }
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.whole {
+    width: 100%;
+    height: 3500px;
+
+}
+
+
+.body {
+    width: 100%;
+    height:2770px;
+    background-color: white;
+    text-align: center;
+    /*background-color: skyblue;*/
+    padding-top: 90px;
+    box-sizing: border-box;
+}
+
+.body .passage {
+    font-family: "Tahoma 微软雅黑";
+    margin: 0 auto;
+    width: 1200px;
+    height: 2610px;
+    /*background-color: skyblue;*/
+    text-align: left;
+}
+.body .passage span{
+    color: #3581f3;
+    text-align: left;
+    line-height: 30px;
+}
+.body .passage div {
+    color: #6D777F;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+}
+
+.body .passage h1 {
+    color: #576571;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.body .passage p {
+    line-height: 30px;
+    text-align: left;
+    color: #6D777F;
+    font-size: 16px;
+    text-indent: 2em;
+}
+
+.body .passage img {
+    margin-top: 50px;
+    box-sizing: border-box;
+}
+
+

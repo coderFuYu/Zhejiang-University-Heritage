@@ -1,0 +1,189 @@
+@charset "utf-8";
+/*通用代码*/
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*通用代码*/
+.whole {
+    width: 100%;
+    height: 1440px;
+
+}
+
+.top {
+    min-width: 1200px;
+    height: 100px;
+    background-color: rgb(4, 86, 154);
+
+}
+
+.mid {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    /*background-color: rgb(4, 86, 154);*/
+}
+
+.logo {
+    width: 220px;
+    height: 60px;
+    float: left;
+    margin-top: 20px;
+    background-image: url("../img/logo-blue.png");
+    background-repeat: no-repeat;
+    /*background-position: 361px 12px;*/
+    display: inline-block;
+    /*overflow: hidden;*/
+}
+
+.choice {
+    /*margin-top: ;*/
+    min-width: 800px;
+    max-width: 950px;
+    height: 100px;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    overflow: hidden;
+    color: white;
+}
+
+.choice div {
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+    float: right;
+    line-height: 100px;
+    text-align: center;
+}
+
+.choice .english {
+    width: 100px;
+    text-align: left;
+}
+
+.choice .signin {
+    margin-left: 50px;
+    text-align: right;
+}
+
+.choice .register {
+    text-align: left;
+}
+
+.choice .chinese {
+    margin-left: 80px;
+    text-align: right;
+}
+
+.choice div a {
+    font-size: 14px;
+    font-family: "Tahoma 微软雅黑";
+    color: white;
+
+}
+
+.banner {
+    height: 715px;
+    width: 100%;
+    background-color: #0560ab;
+    /*background-size: cover;*/
+}
+
+.banner .bannercenter {
+    margin: 0 auto;
+    background: url(../img/index/banner.jpg) no-repeat;
+    max-width: 1920px;
+    height: 715px;
+}
+
+.icon {
+    width: 100%;
+    height: 640px;
+    background: url(../img/index/bg.gif) no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.icon .mid {
+    width: 965px;
+    height: 375px;
+    margin: 143px auto;
+    color: #878787;
+    font-family: Tahoma 微软雅黑;
+    font-weight: bold;
+    font-size: 14px;
+
+    /*background-color: skyblue;*/
+    position: relative;
+}
+
+.icon .mid div {
+    width: 214px;
+    height: 111px;
+    text-align: center;
+}
+
+.icon .mid p {
+    line-height: 50px;
+}
+
+.icon .mid .iconm1 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #2D3033;
+
+}
+
+.icon .mid .iconm2 {
+    position: absolute;
+    left: 370px;
+    top: 0;
+    color: #2D3033;
+
+}
+
+.icon .mid .iconm3 {
+    position: absolute;
+    right: 0;
+    top: 0;
+
+}
+
+.icon .mid .iconm4 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.icon .mid .iconm5{
+    position:absolute;
+    left: 370px;
+    bottom: 0;
+
+}
+.icon .mid .iconm6 {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.bottom {
+    width: 100%;
+    height: 90px;
+    background-image: url(".././img/link.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}

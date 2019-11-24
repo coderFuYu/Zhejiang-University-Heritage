@@ -1,0 +1,96 @@
+@charset "utf-8";
+ul {
+    list-style-image: url("../img/about/liststyle.gif");
+    list-style-type: square;
+}
+
+li {
+    list-style-image: url("../img/about/liststyle.gif");
+    list-style-type: square;
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.about .bg div {
+    width: 600px;
+    height: 150px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.about .bg p {
+    line-height: 80px;
+    font-size: 12px;
+}
+
+.hc {
+    background: url("../img/hall-blue.png") no-repeat 10px 0;
+}
+
+.body .passage {
+    font-family: "Tahoma 微软雅黑";
+    margin: 0 auto;
+    width: 1200px;
+    height: 2000px;
+    color: #6B7179;
+    /*background-color: skyblue;*/
+    text-align: left;
+}
+
+.body .passage div {
+    width: 1200px;
+    height: 500px;
+    margin: 80px auto;
+    /*background-color: pink;*/
+}
+
+.body .passage .l {
+    float: left;
+    width: 600px;
+    height: 500px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.body .passage .r {
+    float: left;
+    width: 600px;
+    height: 500px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+.body .passage img{
+    border-radius: 30px;
+}
+.body .passage  p {
+    font-family: "宋体";
+    line-height: 30px;
+}
+.body .passage  h2{
+    font-size: 40px;
+    line-height: 50px;
+    color: #576571;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.body .passage .l .left {
+    width: 300px;
+    height: 500px;
+    float: left;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+
+.body .passage .l .right {
+    width: 300px;
+    height: 500px;
+    float: right;
+    box-sizing: border-box;
+    margin-top: 20px;
+}
+.body .passage .date img{
+    margin-right: 40px;
+}
+.body .passage .date p{
+    line-height: 80px;
+}

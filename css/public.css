@@ -1,0 +1,246 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+.top {
+    min-width: 1200px;
+    height: 100px;
+    background-color: rgb(4, 86, 154);
+
+}
+
+.mid {
+    width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    /*background-color: rgb(4, 86, 154);*/
+}
+
+.logo {
+    width: 220px;
+    height: 60px;
+    float: left;
+    margin-top: 20px;
+    background-image: url("../img/logo-blue.png");
+    background-repeat: no-repeat;
+    /*background-position: 361px 12px;*/
+    display: inline-block;
+    /*overflow: hidden;*/
+}
+
+.choice {
+    /*margin-top: ;*/
+    min-width: 800px;
+    max-width: 950px;
+    height: 100px;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    overflow: hidden;
+    color: white;
+}
+
+.choice div {
+    display: inline-block;
+    width: 80px;
+    height: 100px;
+    float: right;
+    line-height: 100px;
+    text-align: center;
+}
+
+.choice .english {
+    width: 100px;
+    text-align: left;
+}
+
+.choice .signin {
+    margin-left: 50px;
+    text-align: right;
+}
+
+.choice .register {
+    text-align: left;
+}
+
+.choice .chinese {
+    margin-left: 80px;
+    text-align: right;
+}
+
+.choice div a {
+    font-size: 14px;
+    font-family: "Tahoma 微软雅黑";
+    color: white;
+
+}
+
+.about {
+    width: 100%;
+    height: 253px;
+    background-color: #0560ab;
+    text-align: center;
+    overflow: hidden;
+    color: white;
+
+    box-sizing: border-box;
+}
+
+.about .bg {
+    margin: 0 auto;
+    max-width: 1920px;
+    height: 253px;
+    background-image: url(".././img/background.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.about .bg div {
+    width: 300px;
+    height: 150px;
+    margin: 60px auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    font-family: "Tahoma 微软雅黑";
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.about span {
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgb(53, 129, 243);
+}
+
+.about .bg p {
+    line-height: 50px;
+}
+
+.hcxz {
+    width: 100%;
+    height: 340px;
+    background-color: rgb(249, 250, 250);
+    display: inline-block;
+    text-align: center;
+}.icon {
+     width: 1200px;
+     height: 150px;
+     margin: 0 auto;
+ }
+
+.hc {
+    background: url("../img/hall.png") no-repeat 10px 0;
+    width: 120px;
+    height: 150px;
+}
+.icon .link{
+    width: 120px;
+    height: 120px;
+    display: block;
+}
+.icon .word{
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.hc:hover {
+    background: url("../img/hall-blue.png") no-repeat 10px 0;
+}
+
+.zzz {
+    background: url("../img/organizer.png") no-repeat 5px 0;
+    width: 120px;
+    height: 150px;
+    display: inline-block;
+}
+.zzz:hover {
+    background: url(../img/organizer-blue.png) no-repeat 5px 0;
+}
+
+.fyr {
+
+    background: url("../img/speech.png") no-repeat 5px 0;
+    width: 120px;
+    height: 150px;
+    display: inline-block;
+}
+
+.fyr:hover {
+    background: url("../img/speech-blue.png") no-repeat 5px 0;
+}
+
+.hcjzb {
+    width: 120px;
+    height: 150px;
+    display: inline-block;
+    background: url("../img/venue.png") no-repeat 5px 0;
+}
+.hcjzb:hover{
+    background: url("../img/venue-blue.png") no-repeat 5px 0;
+}
+.link {
+    width: 120px;
+    height: 120px;
+}
+
+.link a {
+    width: 120px;
+    height: 120px;
+}
+.iconm {
+    width: 140px;
+    height: 150px;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    margin: 80px;
+}
+
+
+.iconm a {
+    color: rgb(125, 125, 125);
+    line-height: 30px;
+}
+
+.word {
+    width: 1200px;
+    height: 80px;
+    color: rgb(125, 125, 125);
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+}
+
+.word a {
+    font-family: "Tahoma 微软雅黑";
+    color: rgb(125, 125, 125);
+    font-size: 18px;
+}
+
+.wordm {
+    display: inline-block;
+    text-align: center;
+    height: 50px;
+    width: 140px;
+}
+
+.bottom {
+    width: 100%;
+    height: 90px;
+    background-image: url(".././img/link.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
