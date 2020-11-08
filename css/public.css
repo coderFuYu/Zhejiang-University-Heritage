@@ -30,7 +30,7 @@ a {
     height: 60px;
     float: left;
     margin-top: 20px;
-    background-image: url("../img/logo-blue.png");
+    background-image: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/logo-blue.png");
     background-repeat: no-repeat;
     /*background-position: 361px 12px;*/
     display: inline-block;
@@ -99,7 +99,7 @@ a {
     margin: 0 auto;
     max-width: 1920px;
     height: 253px;
-    background-image: url(".././img/background.png");
+    background-image: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/background.png");
     background-repeat: no-repeat;
     background-position: center center;
 }
@@ -140,7 +140,7 @@ a {
  }
 
 .hc {
-    background: url("../img/hall.png") no-repeat 10px 0;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/hall.png") no-repeat 10px 0;
     width: 120px;
     height: 150px;
 }
@@ -156,39 +156,39 @@ a {
     text-align: center;
 }
 .hc:hover {
-    background: url("../img/hall-blue.png") no-repeat 10px 0;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/hall-blue.png") no-repeat 10px 0;
 }
 
 .zzz {
-    background: url("../img/organizer.png") no-repeat 5px 0;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/organizer.png") no-repeat 5px 0;
     width: 120px;
     height: 150px;
     display: inline-block;
 }
 .zzz:hover {
-    background: url(../img/organizer-blue.png) no-repeat 5px 0;
+    background: url(https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/organizer-blue.png) no-repeat 5px 0;
 }
 
 .fyr {
 
-    background: url("../img/speech.png") no-repeat 5px 0;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/speech.png") no-repeat 5px 0;
     width: 120px;
     height: 150px;
     display: inline-block;
 }
 
 .fyr:hover {
-    background: url("../img/speech-blue.png") no-repeat 5px 0;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/speech-blue.png") no-repeat 5px 0;
 }
 
 .hcjzb {
     width: 120px;
     height: 150px;
     display: inline-block;
-    background: url("../img/venue.png") no-repeat 5px 0;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/venue.png") no-repeat 5px 0;
 }
 .hcjzb:hover{
-    background: url("../img/venue-blue.png") no-repeat 5px 0;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/venue-blue.png") no-repeat 5px 0;
 }
 .link {
     width: 120px;
@@ -239,7 +239,7 @@ a {
 .bottom {
     width: 100%;
     height: 90px;
-    background-image: url(".././img/link.png");
+    background-image: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/link.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

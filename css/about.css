@@ -1,11 +1,11 @@
 @charset "utf-8";
 ul {
-    list-style-image: url("../img/about/liststyle.gif");
+    list-style-image: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/about/liststyle.gif");
     list-style-type: square;
 }
 
 li {
-    list-style-image: url("../img/about/liststyle.gif");
+    list-style-image: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/about/liststyle.gif");
     list-style-type: square;
     line-height: 30px;
     font-size: 14px;
@@ -24,7 +24,7 @@ li {
 }
 
 .hc {
-    background: url("../img/hall-blue.png") no-repeat 10px 0;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/zhedayichan/hall-blue.png") no-repeat 10px 0;
 }
 
 .body .passage {
